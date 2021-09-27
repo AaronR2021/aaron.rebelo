@@ -3,13 +3,9 @@ import ReactPlayer from 'react-player'
 
 
 function ProjectLayout({props}) {
-    const {github,img,text,viedo,id}=props    
+    const {text,viedo}=props    
     return (
       <>
-        {
-            console.log(id,":",github,img,text,viedo,'dddddddddddd'),
-            console.log(`videos/${viedo}`)
-        }
         <div className='modal-card'>
             <div className='video'>
             <ReactPlayer

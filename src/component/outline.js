@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import Projects from '../projects';
 import ProjectLayout from './ProjectLayout.js'
 
@@ -48,56 +48,56 @@ function Outline() {
             <div className='Articles'>
                 <h2>Articles</h2>
                 <div className='article-box'>
-                <a href="https://aaronr2020.hashnode.dev/hooks-at-a-glance" class="box-article-link" target="_blank">
+                <a href="https://aaronr2020.hashnode.dev/hooks-at-a-glance" class="box-article-link"  rel="noreferrer">
             <div class="box-article">
               <img src="https://aaronr2020.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1630744018615%2F7oejGm8i5.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75" alt="" class="img-article" />
               <p>Hooks at a Glance</p>
             </div>
           </a>
 
-          <a href="https://aaronr2020.hashnode.dev/introduction-to-nodejs" class="box-article-link" target="_blank">
+          <a href="https://aaronr2020.hashnode.dev/introduction-to-nodejs" class="box-article-link"  rel="noreferrer">
             <div class="box-article">
               <img src="https://aaronr2020.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1623309690954%2FDeLl6wq7a.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75" alt="" class="img-article" />
               <p>Introduction to node</p>
             </div>
           </a>
 
-          <a href="https://aaronr2020.hashnode.dev/objects-in-javascript" class="box-article-link" target="_blank">
+          <a href="https://aaronr2020.hashnode.dev/objects-in-javascript" class="box-article-link"  rel="noreferrer">
             <div class="box-article">
               <img src="https://aaronr2020.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1615838299434%2FvbYLhjQNn.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75" alt="" class="img-article" />
               <p>Objects in Javascript</p>
             </div>
           </a>
 
-        <a href="https://aaronr2020.hashnode.dev/css-grid-layout" class="box-article-link" target="_blank">
+        <a href="https://aaronr2020.hashnode.dev/css-grid-layout" class="box-article-link"  rel="noreferrer">
             <div class="box-article">
               <img src="https://aaronr2020.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1613002372246%2FOfgNfoXD2.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75" alt="" class="img-article" />
               <p>CSS-grid layout</p>
             </div>
           </a>
 
-        <a href="https://aaronr2020.hashnode.dev/html-or-understanding-display" class="box-article-link" target="_blank">
+        <a href="https://aaronr2020.hashnode.dev/html-or-understanding-display" class="box-article-link"  rel="noreferrer">
             <div class="box-article">
               <img src="https://aaronr2020.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1606667829597%2FTxvFtksDx.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75" alt="" class="img-article" />
               <p>HTML | Understanding display</p>
             </div>
           </a>
 
-          <a href="https://aaronr2020.hashnode.dev/html-or-back-to-the-basics" class="box-article-link" target="_blank">
+          <a href="https://aaronr2020.hashnode.dev/html-or-back-to-the-basics" class="box-article-link"  rel="noreferrer">
             <div class="box-article">
               <img src="https://aaronr2020.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1606582414023%2FaYEFNp4rT.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75" alt="" class="img-article" />
               <p>HTML | back to the basics</p>
             </div>
           </a>
                     
-          <a href="https://aaronr2020.hashnode.dev/the-request-response-cycle" class="box-article-link" target="_blank">
+          <a href="https://aaronr2020.hashnode.dev/the-request-response-cycle" class="box-article-link"  rel="noreferrer">
             <div class="box-article">
               <img src="https://aaronr2020.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1606575448002%2FIFvbmnDSN.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75" alt="" class="img-article" />
               <p>The Request / Response Cycle</p>
             </div>
           </a>         
                     
-          <a href="https://aaronr2020.hashnode.dev/the-git-handbook" class="box-article-link" target="_blank">
+          <a href="https://aaronr2020.hashnode.dev/the-git-handbook" class="box-article-link"  rel="noreferrer">
             <div class="box-article">
               <img src="https://aaronr2020.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1604148842742%2FTKQSTCFxQ.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75" alt="" class="img-article" />
               <p>The Git Handbook</p>
@@ -105,7 +105,7 @@ function Outline() {
             </div>
           </a>
                    
-          <a href="https://aaronr2020.hashnode.dev/lets-talk-wsl" class="box-article-link" target="_blank">
+          <a href="https://aaronr2020.hashnode.dev/lets-talk-wsl" class="box-article-link"  rel="noreferrer">
             <div class="box-article">
               <img src="https://aaronr2020.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1604140582335%2FywvIYpMl7.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75" alt="" class="img-article" />
               <p>LETS TALK WSL</p>
