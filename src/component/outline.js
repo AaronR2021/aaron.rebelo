@@ -144,7 +144,7 @@ function Outline() {
 
               <div className='contact-info'>
              <i class="fab fa-github"></i>
-              <p>AaronR2021</p>
+              <a href='https://github.com/AaronR2021' target="_blank"> <p>AaronR2021</p></a>
               </div>
             </div>
             </div>
