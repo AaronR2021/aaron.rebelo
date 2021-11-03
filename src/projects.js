@@ -55,6 +55,13 @@ const Projects=[
         id:'8',
         viedo:'videos/atara.webm'
     },
+      {
+    github: "https://github.com/AaronR2021/Atara-websiteDesign",
+    img: "",
+    text: "customer onboarding experience",
+    id: "9",
+    viedo: "videos/cp.webm",
+  },
 
 ]
 export default Projects
