@@ -143,6 +143,18 @@ function Outline() {
               <p> 7899100223</p>
               </div>
 
+              <div className="contact-info">
+            <i class="fa fa-twitter"></i>
+            <a
+              href="https://twitter.com/RebeloAaron"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              <p>AaronR2021</p>
+            </a>
+          </div>
+
               <div className='contact-info'>
              <i class="fab fa-github"></i>
               <a href='https://github.com/AaronR2021' rel="noreferrer"> <p>AaronR2021</p></a>
