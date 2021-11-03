@@ -41,6 +41,7 @@ function Outline() {
                         <li>MongoDB</li>
                         <li>Node</li>
                         <li>React</li>
+                        <li>Next.js (in progress) </li>
                     </ul>
                 </div>
             </div>
